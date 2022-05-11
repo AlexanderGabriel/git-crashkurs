@@ -63,18 +63,29 @@ git checkout BRANCHNAME
 
 git checkout TAGNAME
 
-git checktou REVISIONS-Prüfsumme
+git checkout REVISIONS-Prüfsumme
 
 # tags
 
 # mergen
 
-#gitignore
+Branch zusammenführen.
+Zuerst alles committen.
+Dann auf den Branch wechseln, der die Änderungen empfangen soll:
+git checkout main
+Dann den Branch zusammenführen (also die Änderungen herholen):
+git merge AenderungenAlex
 
-#advanced
+# gitignore
 
-##submodules
+# advanced
+
+## submodules
 
 # sonstiges
 
 ## Pull-Request
+
+# Besonderheiten
+
+## leere Dateien gibt es im Git nicht
