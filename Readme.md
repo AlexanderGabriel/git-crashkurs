@@ -53,6 +53,10 @@ git checkout BRANCHNAME
 Auf welchem Branch bin ich?
 git branch
 
+Branch veröffentlichen:
+git push --set-upstream origin AenderugenAlex
+
+
 # auschecken
 
 git checkout BRANCHNAME
