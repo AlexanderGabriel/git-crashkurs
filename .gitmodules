@@ -1,0 +1,3 @@
+[submodule "ansible-role-acme.sh"]
+	path = ansible-role-acme.sh
+	url = https://gogs.digital-infinity.de/DigitalInfinity/ansible-role-acme.sh

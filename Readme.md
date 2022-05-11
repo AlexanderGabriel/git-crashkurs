@@ -76,7 +76,14 @@ git checkout main
 Dann den Branch zusammenführen (also die Änderungen herholen):
 git merge AenderungenAlex
 
-# gitignore
+# .gitignore
+Dateien oder Dateimuster hier eintragen.
+Diese Dateien werden von Git ignoriert
+
+z.B:
+config.php
+*.xml
+.env
 
 # advanced
 
@@ -86,6 +93,8 @@ git merge AenderungenAlex
 
 ## Pull-Request
 
-# Besonderheiten
+Einen Branch erstellen, diesen veröffentlichen und dann über Github "beantragen", dass die Änderungen ins
+Urspüngliche Repository (oder ein anderer Branch) übernommen werden
 
-## leere Dateien gibt es im Git nicht
+# Besonderheiten
+leere Verzeichnisse gibt es im Git nicht
