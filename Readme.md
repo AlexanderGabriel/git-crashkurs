@@ -7,6 +7,7 @@ z.B. git init git-crashkurs
 
 
 # remotes (mehrere)
+ein zentrales Repository heißt "Remote"
 
 # branches
 
