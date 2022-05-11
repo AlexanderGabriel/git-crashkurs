@@ -55,6 +55,11 @@ git branch
 
 # auschecken
 
+git checkout BRANCHNAME
+
+git checkout TAGNAME
+
+git checktou REVISIONS-Prüfsumme
 
 # tags
 
