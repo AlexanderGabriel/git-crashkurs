@@ -66,6 +66,10 @@ git checkout TAGNAME
 git checkout REVISIONS-Prüfsumme
 
 # tags
+Erstellt Tags/Releases/Markierungen, damit man einfacher zu einem bestimmten Stand zurückwechseln kann
+z.B.:
+git tag v1.0
+
 
 # mergen
 
@@ -88,6 +92,11 @@ config.php
 # advanced
 
 ## submodules
+Untermodul hinzufügen:
+git submodule add https://gogs.digital-infinity.de/DigitalInfinity/ansible-role-acme.sh
+
+Wird wie ein eigenes Repository behandelt aber das übergeordnete Repository weiß von dem Untermodul und auch,
+welchen Commit es verwenden soll
 
 # sonstiges
 
