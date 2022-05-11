@@ -38,9 +38,23 @@ git fetch MarcoFirsching
 git pull MarcoFirsching main
 
 # pushen und pullen
+git pull holt vom remote die Änderungen vom aktuellen Branch in den lokalen branch
+git pull MarcoFirsching main
 
+git push schiebt die Änderungen wieder ins remote-Repository
 
 # branches
+Branch erstellen:
+git branch NAME
+
+Branch auschecken:
+git checkout BRANCHNAME
+
+Auf welchem Branch bin ich?
+git branch
+
+# auschecken
+
 
 # tags
 
@@ -53,3 +67,5 @@ git pull MarcoFirsching main
 ##submodules
 
 # sonstiges
+
+## Pull-Request
